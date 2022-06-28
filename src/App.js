@@ -18,7 +18,7 @@ const App = () => {
         <Navbar />
       </div>
       <div className="main">
-        <Layout>
+        <Layout className="main-container">
           <div className="Routes">
             <Switch>
               <Route exact path="/">
@@ -44,7 +44,9 @@ const App = () => {
             level={5}
             style={{ color: "white", textAlign: "center" }}
           >
-            CryptoX <br />
+            Copyright © 2022
+            <Link to="/"> CryptoX Inc</Link>
+            <br />
             All rights reserved
           </Typography.Title>
           <Space>
