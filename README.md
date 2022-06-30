@@ -1,10 +1,17 @@
-# Getting Started with Create React App
+# Getting Started with CryptoX App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+The crypto project provides its users with the top rated 100 cryptocurrencies, their pricechart, statistics & description.
+It also provides recent News of each cryptocurrency, supported by coinranking API endpoints.
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+Installs Needed Dependencies from the package json needed to run the web application.
 
 ### `npm start`
 
