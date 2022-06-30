@@ -16,7 +16,7 @@ const Cryptocurrencies = ({ simplified }) => {
     setCryptos(cryptosList?.data?.coins);
 
     const filteredData = cryptosList?.data?.coins.filter((coin) =>
-      coin.name.toLowerCase().includes(searchTerm)
+      coin.name?.toLowerCase().includes(searchTerm)
     );
     setCryptos(filteredData);
   }, [cryptosList, searchTerm]);
@@ -29,7 +29,7 @@ const Cryptocurrencies = ({ simplified }) => {
         <div className="search-crypto">
           <Input
             placeholder="Search Cryptocurrency"
-            onChange={(e) => setSearchTerm(e.target.value.toLowerCase())}
+            onChange={(e) => setSearchTerm(e.target.value?.toLowerCase())}
           />
         </div>
       )}
