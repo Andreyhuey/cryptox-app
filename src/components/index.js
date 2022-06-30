@@ -1,3 +1,4 @@
+export { default as Loader } from "./Loader.jsx";
 export { default as Navbar } from "./Navbar";
 export { default as Homepage } from "./Homepage";
 export { default as Exchanges } from "./Exchanges";
