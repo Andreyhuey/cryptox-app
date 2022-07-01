@@ -15,8 +15,8 @@ const Cryptocurrencies = ({ simplified }) => {
   useEffect(() => {
     setCryptos(cryptosList?.data?.coins);
 
-    const filteredData = cryptosList?.data?.coins.filter((coin) =>
-      coin.name?.toLowerCase().includes(searchTerm)
+    const filteredData = cryptosList?.data?.coins?.filter((coin) =>
+      coin?.name?.toLowerCase()?.includes(searchTerm)
     );
     setCryptos(filteredData);
   }, [cryptosList, searchTerm]);

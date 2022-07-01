@@ -8,8 +8,8 @@
 }
 
 * {
-  margin: ;
-  padding: ;
+  /* margin: ;
+  padding: ; */
   box-sizing: border-box;
 }
 
@@ -303,7 +303,7 @@ a:hover {
 }
 .news-image-container {
   display: flex !important;
-  justify-content: !important;
+  /* justify-content: !important; */
 }
 .news-title {
   width: 70%;
