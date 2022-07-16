@@ -12,6 +12,8 @@
 /build
 
 # misc
+.htaccess
+build.zip
 .DS_Store
 .env.local
 .env.development.local
