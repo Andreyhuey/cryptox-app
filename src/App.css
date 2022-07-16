@@ -78,55 +78,39 @@ a:hover {
 
 .loader {
   height: 83vh;
-  width: 100vh;
+  width: ;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 
 @media screen and (max-width: 1300px) {
-  .loader {
-    height: 66vh;
-    width: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
   .main {
     /* margin-left: 50px; */
   }
 }
 
 @media screen and (max-width: 1170px) {
-  .loader {
-    height: 66vh;
-    width: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
   .main {
     /* margin-left: 50px; */
   }
 }
 
 @media screen and (max-width: 1000px) {
-  .loader {
-    height: 66vh;
-    width: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
   .main {
     /* margin-left: 100px; */
   }
 }
 
 @media screen and (max-width: 800px) {
+  .loader {
+    height: 83vh;
+    width: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .app {
     flex-direction: column;
     overflow: hidden;
@@ -162,24 +146,8 @@ a:hover {
     align-items: stretch;
   }
 
-  /* .loader {
-    height: 100vh;
-    width: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  } */
-
   .Menu {
     border-radius: 50%;
-  }
-
-  .loader {
-    height: 66vh;
-    width: 72vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
   .ant-menu {
